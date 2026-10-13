@@ -1,0 +1,24 @@
+.DS_Store
+.venv/
+Skeleton_Python/.git-local-backup/
+
+# Local dataset and image files
+MSRC_ObjCategImageDatabase_v2/
+**/Images/
+**/GroundTruth/
+**/SegmentationsGTHighQuality/
+
+# Generated descriptor data
+descriptors/
+Skeleton_Python/descriptors/
+
+# Generated experiment outputs
+Skeleton_Python/results/*.png
+Skeleton_Python/results/*.csv
+Skeleton_Python/results/*.txt
+Skeleton_Python/results/*/
+
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
